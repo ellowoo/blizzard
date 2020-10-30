@@ -1,0 +1,132 @@
+@charset"utf-8";
+
+
+#header{
+    width:100%;
+    position:absolute;
+    z-index:15;
+}
+
+#header h1{
+    width:129px;
+    height:56px;
+    background: url(../images/include/hTop_logo.png)no-repeat;
+    text-align: center;
+    text-indent: -9999px;
+    margin:0 auto;
+    margin-top:30px;
+}
+#header h1 a{
+    display:block;
+}
+
+.inner{position: relative;}
+
+.hTop{
+    color:#fff;}
+.hTop h1{margin-top:53px;}
+.hTop a{
+    display:block;
+    z-index:1;
+    
+}
+
+
+.util{
+    text-align:right;
+    z-index:10;
+}
+
+.util li{
+    display:inline-block;
+    text-align: center;
+    margin-left:40px;
+    margin-bottom: 22px;
+}
+.util li a{
+    display:block;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+
+.hBottom{
+    position: relative;
+    text-align:center;
+    padding-top:30px;
+}
+
+.hBottom li{
+    padding-right:200px;
+}
+
+.gnb{
+    display: inline-block;
+}
+
+.gnb li{
+    float:left;
+    padding-top:30px;
+    padding-right:30px;
+    
+}
+
+.gnb a{
+    display:block;
+    color:#fff;
+}
+
+.hBottom li{
+    float:left;
+    padding-bottom:50px;
+    padding:0 50px;
+}
+
+.hBottom li a{}
+
+.footer{
+    background:#00408a;
+    color:#6298d4;
+    font-size:12px;
+}
+
+.footer a{
+    margin:0 auto;}
+
+.footerTop{
+    font-size:12px;
+    text-align:center;
+    padding-left:50px;
+}
+.footerTop li{
+    float:left;
+    margin-right:50px;
+}
+.footerTop a{
+    text-align:center;
+}
+
+.footerMid{
+    background:url(../images/include/footer_logo.png);
+    width:98px;
+    height:51px;
+    margin:0 auto;
+    text-indent:-9999px;
+}
+
+.flist{text-align:center;}
+.flist li{}
+.flist span{
+    display:block;
+}
+
+.fNotice{display:inline}
+.fNotice li{
+    text-align: center;
+}
+.fNotice a{float:left;}
+.fNotice p{
+    margin:0 auto;
+    font-size:12px;
+}

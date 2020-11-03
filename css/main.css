@@ -167,7 +167,10 @@
 }
 
 
-.moreBtn{}
+.moreBtn{
+    font-size:11px;
+    font-weight:bold;
+}
 
 
 .moreBtn img{}
@@ -232,67 +235,41 @@
     padding-left:278px;
 }
 
-/*mainCon03*/
+/*mainCon02*/
+
 .mainCon03{
-    margin-top:50px;
-    width:250px;
-    margin:0 auto;
-}
+    margin-top:100px;}
 
 .con03 li{
-    
-}
-.con03 a{
     float:left;
-    width:596px;
+    margin-right:12px;
 }
-.con03 img{
-    display:block;
-}
-.con03 h3{
-    float:left;
-}
+.con03 li:last-child{margin-right:0;}
 
+.con03 .con03Txt{
+    position:relative;}
 
-
-.mainCon03{width:1200px;}
-.mainCon03 li{
-    float:left;
-    width:594px;
-    margin-right:20px;
-    width:285px;
-    text-align:center;
-    position:relative;
-}
-.mainCon03 li:last-child{
-    margin-right:0;
-}
-.mainCon03 li{float:left;
-}
-.mainCon03 li a{}
-.mainCon03 li img{
-    position:relative;
-    margin-top:120px;
-}
-
-.con03Txt{
+.Con03first{
     position:absolute;
-    bottom:70px;
-    left:33px;
-    width:100%;
-    font-size:16px;
-    text-align:left;
-    
+    bottom:80px;
+    left:25px;
 }
-.con03Txt h3{
-    float:right;
-    padding-bottom:10px;
+
+.Con03last{
+    position:absolute;
+    bottom:80px;
+    left:25px;
+}
+
+.mainCon03 .con03Txt h3{
     color:#fff;
-    font-weight:bold;
+}
+.mainCon03 .con03Txt p{
+    font-size:12px;
+    color:#56aff5;
+    padding-top:5px;
 }
 
-.con03Txt a{
-    font-weight:bold;
-    
-}
 
+/*mainCon03*/
+   

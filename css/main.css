@@ -46,8 +46,13 @@
 
 .pointImg{
     position: absolute;
-    left:-46px;
-    top:-34px
+    left:-50px;
+    top:-30px;
+}
+
+.sliderInBtn:hover a{
+    background:#fff;
+    color:#28aee1;
 }
 
 .mainMTxt .sliderTxt p {
@@ -179,6 +184,7 @@
 
 .mainCon02 .moreBtn2{
     font-weight:bold;
+    padding-top:7px;
 }
 
 .mainCon02 notice{
@@ -192,14 +198,14 @@
     width:1200px;
     margin:0 0 0 auto;
     background:#fff;
-    padding:80px 30px;
+    padding:70px 30px;
     box-sizing: border-box;
     margin-top:200px;
 }
 .con02Menu h3{
     font-weight:bold;
     float:left;
-    margin-right:50px;
+    margin-right:45px;
 }
 
 

@@ -1,0 +1,136 @@
+@charset"utf-8";
+
+
+#header{
+    width:100%;
+    position:absolute;
+    z-index:15;
+}
+
+#header h1{
+    width:129px;
+    height:56px;
+    background: url(../images/include/hTop_logo.png)no-repeat;
+    text-align: center;
+    text-indent: -9999px;
+    margin:0 auto;
+    margin-top:30px;
+}
+#header h1 a{
+    display:block;
+}
+
+.inner{position: relative;}
+
+.hTop{
+    color:#fff;}
+.hTop h1{margin-top:53px;}
+.hTop a{
+    display:block;
+    z-index:1;
+    
+}
+
+
+.util{
+    text-align:right;
+    z-index:10;
+}
+
+.util li{
+    display:inline-block;
+    text-align: center;
+    margin-left:40px;
+    margin-bottom: 22px;
+}
+.util li a{
+    display:block;
+    color:#fff;
+    font-weight: bold;
+}
+
+
+
+.hBottom{
+    position: relative;
+    text-align:center;
+    padding-top:30px;
+}
+
+.hBottom li{
+    padding-right:200px;
+}
+
+.gnb{
+    display: inline-block;
+}
+
+.gnb li{
+    float:left;
+    padding-top:30px;
+    padding-right:30px;
+    
+}
+
+.gnb a{
+    display:block;
+    color:#fff;
+}
+
+.hBottom li{
+    float:left;
+    padding-bottom:50px;
+    padding:0 50px;
+}
+
+.hBottom li a{
+}
+
+.footer{
+    background:#004085;
+}
+
+.footerTop{
+    margin-top:110px;
+    background:#004085;
+}
+    
+}
+.footerTop li{
+    width:100%;
+    padding-right:75px;
+    text-align:center;
+    padding-bottom:22px;
+}
+
+.footerTop li:first-child{padding-left:600px;}
+
+.footerTop li a{
+    margin:0 auto;
+    color:#76b6ff;
+    font-size:12px;
+    padding-right:75px;
+    float:left;
+}
+
+.fNotice{color:#76b6ff;}
+.fNotice li{float:left;}
+.fNotice li a{
+    text-align:center;
+    color:#76b6ff;
+    padding-right:50px;
+    display:block;
+}
+.fNotice li p{
+    display:block;
+}
+
+.footerMid{
+    background:#004085;
+    width:93px;
+    height:53px;
+}
+.footerMid img{
+    width:100%;
+    text-align:center;
+}

@@ -35,7 +35,7 @@
 
 .slideInBtn{
     border:3px solid #28aee1;
-    border-radius:15px;
+    border-radius:30px;
     padding-bottom:9px;
     width:220px;
     text-align: center;
@@ -262,7 +262,7 @@
 /*mainCon02*/
 
 .mainCon03{
-    margin-top:100px;}
+    margin-top:140px;}
 
 .con03 li{
     float:left;

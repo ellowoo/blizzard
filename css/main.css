@@ -33,16 +33,20 @@
     font-weight:bold;
 }
 
-.slideInBtn{
+.button{
     border:3px solid #28aee1;
     border-radius:30px;
-    padding-bottom:8px;
+    padding:8px;
     width:220px;
     text-align: center;
     display:inline-block;
     margin-top:30px;
+    line-height:25px;
 }
-.slideInBtn a{display:block;}
+
+.button a{
+    padding-top:2px;
+}
 
 .pointImg{
     position: absolute;
@@ -77,7 +81,7 @@
 
 /*mainCon01*/
 .mainCon01{
-    padding:180px 0;
+    padding:140px 0;
     position: relative;
 }
 
@@ -85,6 +89,26 @@
     padding-left:10px;
     padding-bottom:2px;
 }
+
+
+.con01Menu1 .listBtn,.con01Menu4 .listBtn,.con01Menu2 .listBtn,.con01Menu3 .listBtn{display:none;}
+
+.con01Menu1:hover .listBtn{
+    display:block;
+    
+}
+.con01Menu4:hover .listBtn{display:block;}
+.con01Menu2:hover .listBtn{
+    display:block;
+    padding:15px;
+}
+.con01Menu3:hover .listBtn{
+    display:block;
+    padding:15px;
+}
+.con01Menu4:hover .listBtn{display:block;}
+
+
 
 .con01Info{
     display: inline;
@@ -182,6 +206,9 @@
 /*mainCon02*/
 
 
+.mainCon02 h2{margin-bottom:20px;}
+.mainCon02 h2{margin-bottom:20px;}
+
 .mainCon02 .moreBtn2{
     font-weight:bold;
     padding-top:7px;
@@ -206,6 +233,7 @@
     font-weight:bold;
     float:left;
     margin-right:45px;
+    font-size:22px;
 }
 
 
@@ -244,7 +272,7 @@
 /*mainCon02*/
 
 .mainCon03{
-    margin-top:100px;}
+    margin-top:140px;}
 
 .con03 li{
     float:left;
@@ -274,6 +302,14 @@
     font-size:12px;
     color:#56aff5;
     padding-top:5px;
+}
+
+
+
+.mainCon03>div:hover a{
+    display:block;
+    height:100%;
+    background:rgba(45,90,120,0.8);
 }
 
 
